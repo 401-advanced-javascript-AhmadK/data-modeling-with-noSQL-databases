@@ -1,0 +1,28 @@
+{
+  "name": "data-modeling-with-noSQL-databases",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose --coverage",
+    "start": "node index.js",
+    "lint": "eslint '**/*.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/401-advanced-javascript-AhmadK/data-modeling-with-noSQL-databases.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/401-advanced-javascript-AhmadK/data-modeling-with-noSQL-databases/issues"
+  },
+  "homepage": "https://github.com/401-advanced-javascript-AhmadK/data-modeling-with-noSQL-databases#readme",
+  "dependencies": {
+    "@code-fellows/supergoose": "^1.0.1",
+    "eslint": "^6.8.0",
+    "jest": "^25.1.0",
+    "mongoose": "^5.8.10"
+  }
+}
