@@ -1,7 +1,7 @@
 'use strict';
 
 const mongoose = require('mongoose');
-const Products = require('./mongo/product/products-schema.js');
+const Products = require('./mongo/products/products-schema.js');
 
 const MONGOOSE_URI = 'mongodb://localhost:27017/lab05db';
 
